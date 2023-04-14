@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntentActivity">
+
+    <Button
+        android:id="@+id/sms"
+        android:layout_width="173dp"
+        android:layout_height="73dp"
+        android:backgroundTint="@color/purple_500"
+        android:fontFamily="monospace"
+        android:text="SMS"
+        android:textColor="#FFC107"
+        android:textSize="35sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.03" />
+
+    <Button
+        android:id="@+id/call"
+        android:layout_width="180dp"
+        android:layout_height="71dp"
+        android:backgroundTint="@color/purple_700"
+        android:fontFamily="monospace"
+        android:text="CALL"
+        android:textColor="#FFC107"
+        android:textSize="35sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.167" />
+
+    <Button
+        android:id="@+id/camera"
+        android:layout_width="201dp"
+        android:layout_height="72dp"
+        android:backgroundTint="#D7A40A"
+        android:fontFamily="monospace"
+        android:text="CAMERA"
+        android:textColor="#E91E63"
+        android:textSize="35sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.625" />
+
+    <Button
+        android:id="@+id/dial"
+        android:layout_width="168dp"
+        android:layout_height="68dp"
+        android:backgroundTint="@color/purple_200"
+        android:fontFamily="monospace"
+        android:text="DIAL"
+        android:textSize="35sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.472" />
+
+    <Button
+        android:id="@+id/mpesa"
+        android:layout_width="198dp"
+        android:layout_height="72dp"
+        android:backgroundTint="#B78C09"
+        android:fontFamily="serif"
+        android:text="M-PESA"
+        android:textAllCaps="false"
+        android:textColor="#E91E63"
+        android:textSize="35sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.924"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.789" />
+
+    <Button
+        android:id="@+id/share"
+        android:layout_width="181dp"
+        android:layout_height="69dp"
+        android:backgroundTint="@color/purple_200"
+        android:fontFamily="monospace"
+        android:text="SHARE"
+        android:textSize="35sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.331" />
+
+    <Button
+        android:id="@+id/Email"
+        android:layout_width="303dp"
+        android:layout_height="74dp"
+        android:fontFamily="serif-monospace"
+        android:text="Email"
+        android:textAllCaps="true"
+        android:textColor="#FFC107"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.378"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.938" />
+</androidx.constraintlayout.widget.ConstraintLayout>
